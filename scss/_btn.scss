@@ -1,0 +1,44 @@
+@use 'global' as g;
+@use 'colors' as c;
+@use 'fonts' as f;
+
+.nav-cta-link {
+  font-family: f.$body;
+  color: c.$pink;
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  border: 2px solid c.$pink;
+  border-radius: 50px;
+  box-shadow: 1px 1px 8px hsl(297, 80%, 84%);
+}
+
+.cta-btn {
+  display: inline-block;
+  font-family: f.$body;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background-color: c.$pink;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  color: c.$white;
+  box-shadow: 1px 2px 8px hsl(297, 80%, 84%);
+}
+
+.newsletter-cta-btn {
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  width: 55%;
+  background-color: c.$pink;
+  color: c.$white;
+  font-family: f.$body;
+  padding: 0.7rem 2.2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-cta-link:hover,
+.cta-btn:hover,
+.newsletter-cta-btn:hover {
+  opacity: 0.65;
+}

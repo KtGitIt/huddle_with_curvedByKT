@@ -1,0 +1,26 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+body {
+  font-size: 62.5%;
+}
+.features-section-img {
+  margin-bottom: 3rem;
+  img {
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    padding: 0 0.5rem;
+  }
+}
